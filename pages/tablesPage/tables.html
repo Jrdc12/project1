@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tables</title>
+    <link rel="stylesheet" href="../../assets/css/style.css">
+    <link rel="stylesheet" href="../../assets/css/normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="assignment 2 for webdev">
+    <meta name="keywords" content="CSS, HTML, Assignment2, Tables, Lists">
+    <meta name="author" content="Julio Renaldi De Castro">
+</head>
+<body class="tableMain">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../../index.html">Home</a></li>
+                <li><a href="../../index.html">About me</a></li>
+                <li><a href="../contactPage/contact.html">Contact me</a></li>
+                <li><a href="../resumePage/resume.html">Resume</a></li>
+                <li><a href="#">Tables</a></li>
+                <li><a href="../listsPage/lists.html">Lists</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>This will demonstrate my knowledge with tables and CSS</h2>
+        <table class="table1">
+            <thead>
+                <tr>
+                    <th colspan="2" cellspacing="2px">Table 1</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Attribute</td>
+                    <td>Values</td>
+                </tr>
+                <tr>
+                    <td>third row</td>
+                    <td>column3</td>
+                </tr>
+                <tr>
+                    <td>fourth row</td>
+                    <td>column4</td>
+                </tr>
+                <tr>
+                    <td>fifth row</td>
+                    <td>column5</td>
+                </tr>
+                <tr>
+                    <td>sixth row</td>
+                    <td>column6</td>
+                </tr>
+                <tr>
+                    <td>seventh row</td>
+                    <td>column7</td>
+                </tr>
+            </tbody>
+        </table>
+        <hr>
+        <table class="table2">
+            <tr>
+                <th colspan="4">Table2</th>
+            </tr>
+            <tr>
+                <th>Meaningful1</th>
+                <th>Meaningful2</th>
+                <th>Meaningful3</th>
+                <th>Meaningful4</th>
+            </tr>
+            <tr>
+                <td>MeaningfulStuff</td>
+                <td rowspan="2" colspan="2">MoreMeaningfulStuff</td>
+                <td>AnotherMeaningfulStuff</td>
+            </tr>
+            <tr>
+                <td>LotsofFunStuffThatIsMeaningful</td>
+                <td>GreatMeaningfulStuff</td>
+            </tr>
+            <tr>
+                <td>MeaningfulStuffYetAgain</td>
+                <td>TheCraziestYetMeaningfulStuff</td>
+                <td>YetAnotherMeaningfulOne</td>
+                <td>SweetBabyMeaningfulstuff</td>
+            </tr>
+            <tr>
+                <td colspan="2">crazyAmountOfStuff</td>
+                <td colspan="2">BRUHHSTUFF</td>
+            </tr>
+            <tr>
+                <td colspan="4">OHMYLORDSTUFF</td>
+            </tr>
+        </table>
+        <hr>
+        <table class="table3">
+            <tr>
+                <td>
+                    <table class="tableception1">
+                        <caption>Caption for the left side</caption>
+                        <tr>
+                            <th>AnotherOne</th>
+                            <th>with AnotherOne</th>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>Inner most left</td>
+                            <td>Two columns</td>
+                        </tr>
+                        <tr>
+                            <td>With 2 rows</td>
+                            <td>And yeah.</td>
+                        </tr>
+                        
+                    </table>
+                </td>
+                <td>
+                    <table id="tableception2">
+                        <caption>Yoyoyoyo</caption>
+                        <tr>
+                            <th>Test</th>
+                            <th>Test2</th>
+                        </tr>
+                        <tr>
+                            <td>This is the worst thing</td>
+                            <td>This is the 2nd worst thing</td>
+                        </tr>
+                        <tr>
+                            <td>Yep..</td>
+                            <td>Officially the worst</td>
+                        </tr>
+                        <tr>
+                            <td>All your data belong to us</td>
+                            <td>Because why not?</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <hr>
+        <figure>
+            <figcaption>Image inside of the table cell</figcaption>
+            <br>
+            <table class="tableImage">
+                <td>
+                    <img src="../../assets/images/gb.jpg" alt="GB logo">
+                </td>
+            </table>
+            <br>
+            <figure>
+                <figcaption><a href="mailto:JulioRenaldi.DeCastro@georgebrown.ca">JulioRenaldi.DeCastro@georgebrown.ca</a> <a>Julio De Castro</a></figcaption>
+            </figure>
+        </figure>
+        <hr>
+        <table class="table5">
+            <tr id="table51">
+                <td>COMP1223</td>
+            </tr>
+        </table>
+    </main>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <footer>
+        <script src="https://my.gblearn.com/js/loadscript.js"> </script>
+    </footer>
+</body>
+</html>

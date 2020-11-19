@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    margin-top: 50px;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-style: normal;
+
+}
+
+header  {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+    line-height: 50px;
+    background-color: #eee;
+    text-transform: capitalize;
+}
+
+header * {
+    display: inline;
+    height: 50px;
+}
+
+header ul {
+    padding: 0;
+}
+
+header li {
+    margin-left: 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+section {
+    height: 100vh;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+}
+
+#profile img {
+    width: 200px;
+    border-radius: 50%;
+}
+
+#profile h1 {
+    font-size: 3em;
+}
+
+section h2 {
+    font-size: 2.5em;
+}
+
+#profile {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/background1.png");
+}
+
+#about {
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/background2.jpg");
+}
+
+#about p {
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+    width: 55%;
+}
+
+.resume {
+    height: fit-content;
+    background-size: cover; 
+    background-position: center center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/background1.png");
+    padding: 20px;
+    
+}
+
+.table1, th, td {
+    margin-left: 30px;
+    border: 1px solid black;
+    padding: 2px;
+    width: 0px;
+    border-style: solid;
+    background-color: lightgray;
+    border-spacing: 2px;
+}
+
+.table2, th, td{
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-style: solid;
+    padding: 2px;
+    width: 0px;
+    column-span: 4;
+    border-spacing: 2px;
+}
+
+#tableception1 {
+    caption-side: top;
+}
+
+#tableception2 {
+    caption-side: bottom;
+}
+
+.table3, th, td {
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-style: solid;
+    padding: 2px;
+    width: 0px;
+    column-span: 4;
+    border-spacing: 2px;
+    
+}
+
+.table5 td {
+    column-span: 3;
+    margin-top: 30px;
+    margin-left: 30px;
+    border: 1px solid black;
+    border-style: solid;
+    padding: 2px;
+    height: 200px;
+    width: 50;
+}
+
+.table51 tr {
+    vertical-align: top;
+}
+
+.tableMain {
+    height: fit-content;
+    background-size: cover; 
+    background-position: center center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/background1.png");
+    padding: 45px;
+    
+}
+
+#tableList {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2px;
+    width: 0px;
+    column-span: 4;
+}
+
+#tableList2{
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2px;
+    width: 0px;
+    column-span: 4;
+}
+
+#tableList3 {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2px;
+    width: 0px;
+    column-span: 4;
+}
+
+#tableList4 {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2px;
+    width: 0px;
+    column-span: 4;
+}
+
+#tableList5 {
+    margin-top: 30px;
+    margin-left: 30px;
+    padding: 2px;
+    width: 0px;
+    column-span: 4;
+}
+
+.ul1 {
+    list-style-type: disc;
+}
+
+.ul2 {
+    list-style-type: circle;
+}
+
+.ul3 {
+    list-style-type: square;
+}
+
+.ul4 {
+    list-style-image: url(../images/listImage.png);
+    size: .75em;
+}
+
+#mainList {
+    height: fit-content;
+    background-size: cover; 
+    background-position: center center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/background1.png");
+    padding: 45px;
+}
+
+#contact {
+    height: fit-content;
+    background-size: cover; 
+    background-position: center center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/background1.png");
+    padding: 45px;
+}
+
+#bodyContact {
+    height: fit-content;
+    background-size: cover; 
+    background-position: center center;  
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url("../images/background1.png");
+    padding: 45px;
+}
+
+a:hover {
+    background-color: gray;
+  }
+
